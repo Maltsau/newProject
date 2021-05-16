@@ -10,9 +10,11 @@ const Container = styled.div`
 `;
 
 function App() {
+  const [delay, setDelay] = useState("0");
   return (
     <NumberContextProvider>
       <Container>
+        <input value={delay} onChange={(e) => setDelay(e.target.value)} />
         <Button text="Generate"></Button>
         <RandomNumber />
         <PlayButton />

@@ -3,8 +3,8 @@ import styled from "styled-components";
 import useRandomHook from "../RandomNumber/hooks/useRandomHook";
 
 const ButtonStyled = styled.button`
-  color: red;
-  background-color: blue;
+  color: black;
+  background-color: grey;
 `;
 
 type ButtonType = { text: string; onClick?: () => void };

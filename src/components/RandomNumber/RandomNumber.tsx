@@ -4,7 +4,7 @@ import { useNumberContext } from "../../contexts/NumberContext";
 
 const Container = styled.span`
   color: black;
-  background-color: green;
+  background-color: white;
 `;
 type RandomNumberType = {
   number?: string;

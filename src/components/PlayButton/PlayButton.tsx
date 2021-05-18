@@ -4,8 +4,8 @@ import { useNumberContext } from "../../contexts/NumberContext";
 import speak from "../../services/speak";
 
 const ButtonStyled = styled.button`
-  color: red;
-  background-color: blue;
+  color: black;
+  background-color: grey;
 `;
 
 export default function () {

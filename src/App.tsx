@@ -7,6 +7,7 @@ import RandomNumber from "./components/RandomNumber/RandomNumber";
 import { NumberContextProvider } from "./contexts/NumberContext";
 const Container = styled.div`
   font-size: 26px;
+  margin:  50px
 `;
 
 function App() {

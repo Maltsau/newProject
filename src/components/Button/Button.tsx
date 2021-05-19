@@ -10,14 +10,5 @@ const ButtonStyled = styled.button`
 type ButtonType = { text: string; onClick?: () => void };
 
 export default function ({ text, onClick }: ButtonType) {
-  const setRandom = useRandomHook();
-  return (
-    <ButtonStyled
-      onClick={() => {
-        setRandom(12);
-      }}
-    >
-      {text}
-    </ButtonStyled>
-  );
+  return <ButtonStyled onClick={onClick}>{text}</ButtonStyled>;
 }

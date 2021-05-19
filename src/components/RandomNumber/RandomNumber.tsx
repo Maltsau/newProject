@@ -12,7 +12,7 @@ const Letter = styled.span<{ isHighlighted: boolean }>`
 
 type RandomNumberType = {
   number: string;
-  highlight: number;
+  highlight?: number;
 };
 
 export default function ({ number, highlight = 0 }: RandomNumberType) {
